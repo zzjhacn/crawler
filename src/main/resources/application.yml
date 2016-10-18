@@ -1,0 +1,11 @@
+server:
+  port: 8088
+  contextPath: /
+spring:
+  main:
+    banner-mode: 'off'
+  application:
+    name: crawler
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/crawler
